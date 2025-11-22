@@ -40,7 +40,6 @@ def main():
         device=device
     )
 
-    # MOVER MODELO PARA DEVICE ANTES DO TESTE
     model = model.to(device)
 
     # Teste
@@ -49,7 +48,4 @@ def main():
         test_dataset=test_dataset,
         device=device
     )
-
-    show_autoencoder_results(model, test_loader, device=device, num_images=8)
-
     
