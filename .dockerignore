@@ -1,0 +1,26 @@
+# venvs
+.venv/
+venv/
+env/
+
+# caches
+.cache/
+uv/
+*/.cache/
+*/uv/
+
+# git
+.git/
+
+# python
+__pycache__/
+*.pyc
+
+# outputs
+outputs/
+logs/
+checkpoints/
+
+# datasets
+data/
+datasets/

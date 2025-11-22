@@ -7,7 +7,6 @@ from torch.utils.data import Subset, DataLoader
 
 from .train import train_model
 from .test import test_model
-from .evaluate import show_autoencoder_results
 
 
 def main():
